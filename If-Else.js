@@ -1,8 +1,6 @@
 function regalo(cliente) {
-    var valor, cliente;
-
-    cliente = 10;
-
+    var valor;
+    
     for (cliente = 1; cliente <= 10; cliente++) {
         valor = Math.floor (Math.random () * 15000);
         //console.log("cliente " + cliente + ": " + valor);  
